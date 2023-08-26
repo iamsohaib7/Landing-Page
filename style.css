@@ -65,11 +65,11 @@ h1 {
     padding-bottom: 3px;
     margin-bottom: 10px;
 }
-.main-text button {
+button {
     background-color: #3882F6;
     padding: 7px 25px;
     border: none;
-    border-radius: 6px;
+    border-radius: 7px;
     color: white    ;
     font-weight: bold;
 }
@@ -92,7 +92,7 @@ img {
 .card p {
     margin: 0.5rem;
     font-size: 16px;
-    color: #c7cace;
+    color: gray;
 }
 #information {
     font-size: 36px;
@@ -120,4 +120,29 @@ cite {
     justify-content: flex-end;
     font-style: normal;
     font-weight: bold;
+}
+.action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 40px;
+    color: white;
+    align-items: center;
+    padding: 30px 50px;
+    border-radius: 7px;
+}
+.action-text h3, p{
+    margin: 0;
+}
+.action-text h3 {
+    padding-bottom: 0.2rem;
+}
+.action button {
+    border: white 1px solid;
+}
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px 0;
+    color: white;
 }
