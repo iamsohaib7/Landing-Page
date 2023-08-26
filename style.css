@@ -1,8 +1,25 @@
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-1 {
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
 }
 
 .header-img {
     width: 450px;
     height: 200px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
