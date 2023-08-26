@@ -15,8 +15,8 @@ body {
     height: 250px;
 }
 img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 ul {
     list-style: none;
@@ -71,5 +71,53 @@ h1 {
     border: none;
     border-radius: 6px;
     color: white    ;
+    font-weight: bold;
+}
+.card-holder {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.card {
+    width: 180px;
+}
+img {
+    border: #3882F6 solid 4px;
+    border-radius: 0.9rem;
+}
+.card p {
+    margin: 0.5rem;
+    font-size: 16px;
+    color: #c7cace;
+}
+#information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 3rem 0;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 0;
+}
+blockquote {
+    width: 850px;
+}
+cite {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
     font-weight: bold;
 }
